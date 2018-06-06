@@ -44,7 +44,7 @@ app.get('/displayLogin', (req, res) => {
 
 // till here ----------------
 
-app.listen(3000, ()=>{
-	console.log('app is running on the port 3000')
+app.listen(process.env.PORT || 3000, ()=>{
+	console.log(`app is running on the port ${process.env.PORT}`)
 })
 
