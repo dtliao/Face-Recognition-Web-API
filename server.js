@@ -13,7 +13,7 @@ const image = require('./controllers/image')
   connection: {
     host : '127.0.0.1',
     user : 'postgres',
-    password : '820501Dl',
+    password : '',
     database : 'smartbrain'
   }
 });
